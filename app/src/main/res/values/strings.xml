@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">JSON List</string>
+    <string name="age_pres">Age : </string>
+    <string name="years">ans</string>
+    <string name="active">Actif</string>
+    <string name="inactive">Inactif</string>
 </resources>

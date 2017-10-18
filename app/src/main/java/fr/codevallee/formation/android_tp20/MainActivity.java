@@ -45,11 +45,12 @@ public class MainActivity extends AppCompatActivity {
                     }
 
                     final ArrayAdapter<String> adapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1, usersStringArray);
+                    final UserAdapter userAdapter = new UserAdapter(MainActivity.this, users);
                     final ListView usersList = (ListView) findViewById(R.id.list_view);
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
-                            usersList.setAdapter(adapter);
+                            usersList.setAdapter(userAdapter);
                         }
                     });
 
