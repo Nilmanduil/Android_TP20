@@ -1,0 +1,21 @@
+# Le but de ce TP 20 est de mettre en pratique l'utilisation du format JSON
+# Durée 2 heures
+
+Création d'une application qui charge une liste d'utilisateur depuis cette URL :
+(http://www.json-generator.com/api/json/get/bVHlAgIkCW?indent=2)
+
+http://www.json-generator.com/api/json/get/cqJwgRSHUy?indent=3
+
+Aide :
+
+Pour charger le flux json en java :
+Utiliser : IOUtils.toString(new URL("https://blabla.com/blabla.json"), Charset.forName("UTF-8")))
+
+Pour l'obtenir dans votre projet : https://mvnrepository.com/artifact/commons-io/commons-io/2.5
+
+Pour transformer le flux JSON en objets Java :
+http://borntocode.fr/android-mettre-en-place-et-utiliser-gson-pour-faciliter-lutilisation-du-json/
+
+
+Pour utiliser une ListView : 
+http://tutos-android-france.com/listview-afficher-une-liste-delements/
